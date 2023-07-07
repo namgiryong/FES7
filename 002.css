@@ -1,0 +1,22 @@
+/* font */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+/* box-2 */
+p {
+color: white;
+font-family: Pretendard-Regular;
+font-size: 13px;
+border: 2px dashed rgb(166, 198, 222);
+border-radius: 40px;
+width: 80px;
+height: 40px;
+background:linear-gradient(90deg, #8732ff, #3f82ed);
+background-clip: padding-box;
+text-align: center;
+justify-items: center;
+line-height: 40px;
+}
