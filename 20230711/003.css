@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body a {
+  font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+  text-decoration: none;
+}
+
+.outline {
+    width: 350px;
+    height: 140px;
+    /* background-color: rgb(25, 156, 141); */
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 18px 15px;
+    font-size: 12px;
+}
+
+.bt1 {
+    width: 100%;
+    height: 40px;
+    margin: 16px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #711bff; 
+    border-radius: 4px;
+}
+.bt1 img {
+width: 64px;
+margin-right: 3px;
+}
+
+.bt3 {
+    color: #767676;
+}
+
+.bt3 img {
+    width: 16px;
+}
+span {
+    margin: 0 2px;
+}
+
+.bt4 {
+    display: flex
+
+}
