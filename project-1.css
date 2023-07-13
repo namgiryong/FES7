@@ -1,0 +1,41 @@
+/* 폰트 */
+@font-face {
+    font-family: 'TTWanjudaedunsancheB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body, a {
+    font-family: 'TTWanjudaedunsancheB';
+    text-decoration: none;
+    color: black;
+    background-color: #7ccad5;
+}
+
+
+
+.head-1 {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+.head-2:hover {
+    transform: scale(1.03);
+    transition: .2s;
+}
+.side {
+    display: flex;
+}
+.side img {
+    height: 30px;
+}
+.bgm:active {
+
+}
+
+
+
+
+
+
