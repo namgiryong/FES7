@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복습-5</title>
+    <style>
+        .container {
+            width: 350px;
+            height: 200px;
+            outline: 1px dashed black;
+            /* 설정 */
+            position: relative;
+        }
+        .child {
+            width: 50px;
+            height: 50px;
+            background-color: hotpink;
+            /* 수직 중앙 정렬하기 */
+                position: absolute;
+                top: 50%;
+                margin-top: -25px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child"></div>
+    </div>
+</body>
+</html>

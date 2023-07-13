@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼</title>
+    <style>
+        body {
+            display: flex;
+            gap: 10px;
+            background-color: #439AFF;
+        }
+
+        .bt1-1 {
+            background-color: #2D3848;
+            color: #CBD5DF;
+            width: 88px;
+            height: 32px;
+            font-size: 12px;
+        }
+        .bt2-1 {
+            background-color: #2D3848;
+            color: #439AFF;
+            width: 88px;
+            height: 32px;
+            font-size: 12px;
+        }
+        .bt3-1 {
+            background-color: #2D3848;
+            color: #EB5757;
+            width: 88px;
+            height: 32px;
+            font-size: 12px;
+        }
+        .bt4-1 {
+            background-color: #2D3848;
+            color: #CBD5DF;
+            width: 88px;
+            height: 32px;
+            font-size: 12px;
+        }
+        /* hover */
+
+        .bt1-1:hover {
+            text-decoration: underline;
+        }
+
+        .bt2-1:hover {
+            text-decoration: underline;
+            background-color: #439AFF;
+            color: white;
+        }
+
+        .bt3-1:hover {
+            text-decoration: underline;
+            background-color: #EB5757;
+            color: white;
+        }
+
+        /* active */
+
+        .bt1-1:active {
+            text-decoration: underline;
+        }
+
+        .bt2-1:active {
+            text-decoration: underline;
+            background-color: #439AFF;
+            color: white;
+        }
+
+        .bt3-1:active {
+            text-decoration: underline;
+            background-color: #EB5757;
+            color: white;
+        }
+
+        /* disable */
+
+        .bt1-1:disabled {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="bt1">
+        <button class="bt1-1" type="button"> Button</button>
+    </div>
+
+    <div class="bt2">
+        <button class="bt2-1" type="button"> Yes</button>
+    </div>
+
+    <div class="bt3">
+        <button class="bt3-1" type="button"> Del</button>
+    </div>
+
+    <div class="bt4">
+        <button class="bt4-1" type="button" disabled> Button</button>
+    </div>
+
+
+
+</body>
+</html>

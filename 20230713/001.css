@@ -1,0 +1,17 @@
+.btn {
+    width: 88px;
+    height: 32px;
+    border-radius: 0;
+    border: 1px solid #1a202c;
+    background-color: #3a3f50;
+    color: #cbd5df;
+}
+
+.btn:enabled {
+    box-shadow: inset 1px 1px 0 0 #4a5568;
+}
+
+.btn:disabled {
+    border: 1px solid #343e4e;
+    background-color: #3;
+}
